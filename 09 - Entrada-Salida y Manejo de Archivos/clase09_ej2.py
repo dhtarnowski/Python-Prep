@@ -9,8 +9,8 @@ if len(sys.argv) == 2:
     #temperatura = sys.argv[1]
     #humedad = sys.argv[2]
     lluvia = sys.argv[1]
-    temperatura = input('Ingrese la temperatura en grados centígrados')
-    humedad = input('Ingrese el porcentaje de humedad')
+    temperatura = input('Ingrese la temperatura en grados centígrados: ')
+    humedad = input('Ingrese el porcentaje de humedad: ')
     linea = str(marca_de_tiempo) + ',' + temperatura + ',' + humedad + ',' + lluvia
 
     logs_lluvia = open('clase09_ej2.csv', 'a')
